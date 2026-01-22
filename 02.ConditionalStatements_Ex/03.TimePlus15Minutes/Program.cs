@@ -1,0 +1,34 @@
+﻿namespace _03.TimePlus15Minutes
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int hours = int.Parse(Console.ReadLine());
+            int minutes = int.Parse(Console.ReadLine());
+            int addedMinutes = 15;
+
+            minutes += addedMinutes;
+
+            if (minutes >= 60)
+            {
+                minutes %= 60;
+                hours++;
+            }
+
+            if (hours == 24)
+            {
+                hours = 0;
+            }
+
+            if (minutes < 10)
+            {
+                Console.WriteLine($"{hours}:0{minutes}");
+            }
+            else
+            {
+                Console.WriteLine($"{hours}:{minutes}");
+            }
+        }
+    }
+}
