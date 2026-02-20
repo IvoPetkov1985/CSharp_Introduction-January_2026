@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CinemaTickets", "06.Cine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CinemaTickets.v2", "06.CinemaTickets.v2\06.CinemaTickets.v2.csproj", "{EDB0F53E-AA5D-4DEB-9200-9609F65A19A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumPrimeNonPrime.v2", "03.SumPrimeNonPrime.v2\03.SumPrimeNonPrime.v2.csproj", "{D3A9EEC9-23A9-4920-BCFD-636EE2B7BF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SpecialNumbers.v3", "05.SpecialNumbers.v3\05.SpecialNumbers.v3.csproj", "{FF0B3C12-7788-4BED-8421-55B680745228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{EDB0F53E-AA5D-4DEB-9200-9609F65A19A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB0F53E-AA5D-4DEB-9200-9609F65A19A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB0F53E-AA5D-4DEB-9200-9609F65A19A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A9EEC9-23A9-4920-BCFD-636EE2B7BF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A9EEC9-23A9-4920-BCFD-636EE2B7BF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A9EEC9-23A9-4920-BCFD-636EE2B7BF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A9EEC9-23A9-4920-BCFD-636EE2B7BF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0B3C12-7788-4BED-8421-55B680745228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0B3C12-7788-4BED-8421-55B680745228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0B3C12-7788-4BED-8421-55B680745228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0B3C12-7788-4BED-8421-55B680745228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
